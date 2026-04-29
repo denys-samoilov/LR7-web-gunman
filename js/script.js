@@ -66,9 +66,7 @@ nextLevelBtn.addEventListener('click', () => {
   nextLevel();
 });
 
-async function startGame() {
-    alert('Game started!');
-    
+async function startGame() {    
     gameMenu.style.opacity = '0';
     gameMenu.style.visibility = 'hidden';
     wrapper.style.opacity = '1';

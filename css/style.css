@@ -5,9 +5,7 @@ body {
 }
 
 
-/*                              Game menu style                             */
 .game-menu {
-/*  display: none;*/
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -34,9 +32,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-/*                              End Game menu style                          */
 
-/*                              Buttons style                               */
 .button {
   position: fixed;
   left: 50%;
@@ -79,9 +75,7 @@ body {
 .button:active {
   color: #000;
 }
-/*                              End Buttons style                           */
 
-/*                              Main game screen style                       */
 
 .wrapper {
   opacity: 0;
@@ -124,30 +118,13 @@ body {
   background-image: url('../img/lose-bg.png');
   background-size: cover;
 }
-/*                              End Main game screen style                   */
 
-/*                              Sreen death style                          */
 .game-screen--death {
   animation: 4s player-death linear;
 }
 
-@keyframes player-death {
-  0% {
-  box-shadow: inset 0 0 400px rgba(215, 35, 0, 0.5);
-  }
-  20% {
-  box-shadow: inset 0 0 300px rgba(215, 35, 0, 0.5);
-  }
-  40% {
-  box-shadow: inset 0 0 200px rgba(215, 35, 0, 0.5);
-  }
-  100% {
-  box-shadow: inset 0 0 100px rgba(215, 35, 0, 0.5);
-  }
-}
-/*                              End Sreen death style                        */
 
-/*                              Alert messages style                         */
+
 .message {
   color: #fff;
   position: absolute;
@@ -316,9 +293,7 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-/*                              End Game win screen style                    */
 
-/*                              Gunman style                                 */
 .gunman {
   position: absolute;
   overflow: hidden;
